@@ -4,9 +4,9 @@ import { Injectable } from '@angular/core'
   providedIn: 'root',
 })
 export class CursosService {
-  constructor() { }
+  constructor() {}
 
   getCursos() {
     return ['Java', 'Ext JS', 'Angular']
-  }
+  } 
 }

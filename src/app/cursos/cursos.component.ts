@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core'
 })
 export class CursosComponent implements OnInit {
   nomePortal: string
-  cursos: string[]
+  cursos: string[] 
   constructor(private cursosService: CursosService) {
     this.nomePortal = 'http://loiane.training'
 
@@ -16,5 +16,5 @@ export class CursosComponent implements OnInit {
     this.cursos = this.cursosService.getCursos()
   }
 
-  ngOnInit(): void { }
+  ngOnInit(): void {}
 }
